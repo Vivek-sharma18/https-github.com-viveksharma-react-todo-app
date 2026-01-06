@@ -1,0 +1,32 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  background: #121212;
+}
+
+.todo-card {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.dark .todo-card {
+  background: #1e1e1e;
+  color: white;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: green;
+}
+
+.filters button {
+  margin: 5px;
+}
